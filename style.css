@@ -1,6 +1,6 @@
 body {
     margin: 0;
- text-align:center;
+    text-align: center;
     padding-top: 800px;
 }
 
@@ -63,24 +63,36 @@ p {
     text-align: center;
     vertical-align: middle;
 }
+
 .menu {
-position:absolute;
-top:10px;
-right:30px;
-z-index:9;
-cursor: pointer;
+    position: fixed;
+    top: 0px;
+    margin-top:0px;
+    width:100%;
+    z-index: 9;
+    cursor: pointer;
+    background-color:white;
 }
+
 .links {
-float: left;
-list-style:none;
-padding-top:5px;
-padding-left: 9px;
-padding-bottom: 5px;
-font-size:20px;
-font-family: 'Open Sans Condensed', sans-serif;
-padding-right:9px;
+    list-style: none;
+    padding-left: 33px;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding-right: 35px;
+    display:inline;
 }
+
 .links:hover {
-background-color: blue;
-font-size:25px;
+    background-color: blue;
+    font-size: 25px;
+}
+.contacts iframe {
+width:100%;
+}
+.hi h3 {
+display:inline
+}
+.contacts {
+background-color: cadetblue;
 }
